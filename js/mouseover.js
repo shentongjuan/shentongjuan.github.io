@@ -7,7 +7,7 @@ window.onload=function(){
     particlesJS.load('particles-js','js/particles.json', function() {
     	//console.log('加载particles.js');
     });
-}
+};
 
 function $(id){
 	return document.getElementById(id);
@@ -15,10 +15,8 @@ function $(id){
 
 function mouseOver(){
 	$('github').style.visibility = 'visible';
-	$('zhihu').style.visibility = 'visible';
 }
 
 function mouseOut(){
 	$('github').style.visibility = 'hidden';
-	$('zhihu').style.visibility = 'hidden';
 }
